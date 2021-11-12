@@ -1,0 +1,71 @@
+.containertwo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.mainthree {
+  width: 250px;
+  height: 350px;
+  border-radius: 8px;
+}
+
+.containertwo .card {
+  position: relative;
+  width: 265px;
+  height: 390px;
+  margin: 30px;
+
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+
+  backdrop-filter: blur(5px);
+}
+
+.containertwo .card .content {
+  padding: 20px;
+  text-align: center;
+}
+
+.containertwo .card .content h2 {
+  position: absolute;
+  top: -40px;
+  right: 30px;
+  font-size: 8em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.containertwo .card .content a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  background: rgb(29, 25, 106);
+  background: linear-gradient(
+    144deg,
+    rgba(29, 25, 106, 1) 0%,
+    rgba(179, 49, 129, 1) 38%,
+    rgba(144, 42, 146, 1) 67%,
+    rgba(29, 25, 106, 1) 100%
+  );
+}
+
+.card:active {
+  transform: translateY(5px);
+  transform: scale(0.98);
+}
+
+.containertwo .card .content a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}

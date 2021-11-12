@@ -1,0 +1,22 @@
+.mainbg {
+  width: 90%;
+  border-radius: 8px;
+  height: 85vh;
+  content: "";
+
+  backdrop-filter: blur(7px);
+
+  background: rgba(255, 255, 255, 0.1);
+  /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
+
+  margin-top: 5%;
+  margin-left: 5%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.hero {
+  margin: auto;
+  /* padding: 30px 25px 0 25px; */
+  padding: 5% 2%;
+}

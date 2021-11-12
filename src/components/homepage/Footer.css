@@ -1,0 +1,85 @@
+
+
+.cta {
+    text-align: center;
+    justify-content: center;
+}
+
+.fo__searchbar {
+    width: 450px;
+    height: 35px;
+    border: none;
+    border-radius: 18px;
+
+}
+
+.fo__submit {
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 18px;
+}
+
+
+.description{
+    width: 90%;
+    border-radius: 8px;
+    height: 35vh;
+    content:"";
+
+
+    backdrop-filter: blur(7px);
+ 
+    background: rgba(255,255,255,0.1);
+
+
+    margin-top:5%;
+    margin-left:5%;
+    z-index:-1;
+}
+
+.comname h2 {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+}
+
+
+ul a{
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    
+}
+
+.one{
+    float: left;
+    width: 15%;
+    text-align: start;
+}
+
+.two {
+    float: left;
+    width: 15%;
+    text-align: start;
+}
+
+.three {
+    float: left;
+
+    text-align: start;
+}
+
+.four{
+    margin: 10px;
+    color: rgba(255,255,255,0.5);
+}
+
+.foot_head {
+    margin: 20px 20px 20px 40px;
+    color: white;
+}
+
+ul.foot_link{
+    list-style-type: none;
+}
+

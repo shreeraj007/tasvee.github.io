@@ -1,0 +1,22 @@
+.glasssecoend{
+    width: 90%;
+    border-radius: 8px;
+    height: 85vh;
+    content:"";
+
+
+    backdrop-filter: blur(7px);
+
+    background: rgba(255,255,255,0.1);
+
+    margin-top:5%;
+    margin-left:5%;
+    z-index:-1;
+    overflow: hidden;
+}
+
+.appmockup{
+    margin: auto;
+    padding: 2% 15%;
+    
+}

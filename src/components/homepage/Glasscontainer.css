@@ -1,0 +1,24 @@
+.glasscntr {
+  width: 90%;
+  border-radius: 8px;
+  height: 125vh;
+  content: "";
+
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+
+  margin-top: 5%;
+  margin-left: 5%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.spothead {
+  margin: 10px 0 0 75px;
+  color: white;
+}
+
+.demandhead {
+  margin: 10px 0 0 75px;
+  color: white;
+}

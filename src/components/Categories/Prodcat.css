@@ -1,0 +1,64 @@
+
+.rowprod{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.categoryprod{
+    width: 200px;
+    height: 280px;
+    border-radius: 8px; 
+}
+
+.rowprod .cardprod{
+    position: relative;
+    width: 210px;
+    height: 315px;
+    margin: 30px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.rowprod .cardprod .contentprod{
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+.rowprod .cardprod .contentprod a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+}
+
+
+.cardprod {
+    margin: 30px;
+    border-radius: 16px;
+    list-style: none;
+  }
+  
+  .cardprod:hover {
+    transform: scale(1.02);
+    background: rgb(29,25,106);
+background: linear-gradient(144deg, rgba(29,25,106,1) 0%, rgba(179,49,129,1) 38%, rgba(144,42,146,1) 67%, rgba(29,25,106,1) 100%);
+  }
+  
+  .cardprod:active {
+    transform: translateY(5px);
+    transform: scale(0.98);
+  }
+
+  .rowprod .cardprod .contentprod a:hover{
+    color:white;
+  }

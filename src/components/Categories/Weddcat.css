@@ -1,0 +1,67 @@
+.row {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 1200px;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.categoryw {
+  width: 230px;
+  height: 280px;
+  border-radius: 8px;
+}
+
+.row .cardw {
+  position: relative;
+  width: 270px;
+  height: 370px;
+  margin: 30px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.row .cardw .contentw {
+  padding: 20px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.text-de > h4 {
+  color: rgba(184, 184, 184, 0.5);
+}
+
+.cardw {
+  margin: 30px;
+  border-radius: 16px;
+  list-style: none;
+}
+
+.cardw:hover {
+  transform: scale(1.02);
+  background: rgb(29, 25, 106);
+  background: linear-gradient(
+    144deg,
+    rgba(29, 25, 106, 1) 0%,
+    rgba(179, 49, 129, 1) 38%,
+    rgba(144, 42, 146, 1) 67%,
+    rgba(29, 25, 106, 1) 100%
+  );
+  color: white;
+}
+
+.text-de:hover {
+  color: white;
+}
+
+.cardw:active {
+  transform: translateY(5px);
+  transform: scale(0.98);
+}

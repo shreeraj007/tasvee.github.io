@@ -1,0 +1,12 @@
+body {
+  background-image: url("../webwall.svg");
+
+  /* background: rgb(29, 25, 106);
+  background: linear-gradient(
+    144deg,
+    rgba(29, 25, 106, 1) 0%,
+    rgba(179, 49, 129, 1) 38%,
+    rgba(144, 42, 146, 1) 67%,
+    rgba(29, 25, 106, 1) 100%
+  ); */
+}

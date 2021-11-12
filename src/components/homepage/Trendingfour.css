@@ -1,0 +1,77 @@
+
+.containertr{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.trending{
+    width: 200px;
+    height: 280px;
+    border-radius: 8px; 
+}
+
+.containertr .cardtr{
+    position: relative;
+    width: 220px;
+    height: 320px;
+    margin: 30px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.containertr .cardtr .contenttr{
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+/* .containertr .cardtr .contenttr a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+} */
+
+
+
+.containertr .cardtr .contenttr a{
+    text-decoration: none;
+    color: black;
+}
+
+.cardtr {
+    margin: 30px;
+    border-radius: 16px;
+    list-style: none;
+  }
+  
+  .cardtr:hover {
+    transform: scale(1.02);
+    background: rgb(29,25,106);
+    background: linear-gradient(144deg, rgba(29,25,106,1) 0%, rgba(179,49,129,1) 38%, rgba(144,42,146,1) 67%, rgba(29,25,106,1) 100%);
+ 
+  }
+  
+  .cardtr:active {
+    transform: translateY(5px);
+    transform: scale(0.98);
+  }
+
+  /* .containertr .cardtr .contenttr a:hover{
+    color:rgb(255, 255, 255);
+} */
+
+
+.containertr .cardtr .contenttr a:hover{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}

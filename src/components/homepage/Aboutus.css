@@ -1,0 +1,71 @@
+.aboutus-glass {
+  width: 90%;
+  border-radius: 8px;
+  height: 80vh;
+  content: "";
+
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+
+  margin-top: 5%;
+  margin-left: 5%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.culture {
+  margin: auto;
+  padding: auto;
+  object-fit: contain;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.culture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.row-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 1200px;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.profile-img {
+  width: 230px;
+  height: 280px;
+  border-radius: 4px;
+}
+
+.row-container .card-glass {
+  position: relative;
+  width: 270px;
+  height: 370px;
+  margin: 30px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.row-container .card-glass .content-user {
+  padding: 20px;
+  text-align: center;
+}
+
+.iconBx {
+  padding-left: 15px;
+  margin-top: 10px;
+  color: #fff;
+}
